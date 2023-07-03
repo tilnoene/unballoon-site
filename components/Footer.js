@@ -1,11 +1,7 @@
-import { useConfig } from '@/lib/config'
-import Vercel from '@/components/Vercel'
-const Footer = ({ fullWidth }) => {
-  const BLOG = useConfig()
+import Image from 'next/image'
+import unb_logo from '../assets/images/unb_logo.png';
 
-  const d = new Date()
-  const y = d.getFullYear()
-  const from = +BLOG.since
+const Footer = ({ fullWidth }) => {
   return (
     <div
       className={`mt-6 flex-shrink-0 m-auto w-full text-gray-500 dark:text-gray-400 transition-all ${
@@ -16,9 +12,9 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+            © UnBalloon
           </p>
-          <Vercel />
+          <Image src={unb_logo} alt='Universidade de Brasília' style={{width: '28%', height: '50%'}}/>
         </div>
       </div>
     </div>

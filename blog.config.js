@@ -4,9 +4,9 @@ const BLOG = {
   email: 'mbvictorsantos@gmail.com',
   link: 'https://unballoon.vercel.app',
   description: 'Grupo de estudos de programação competitiva da Universidade de Brasília.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'pt-BR',
   timezone: 'America/Sao_Paulo', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
-  appearance: 'auto', // ['light', 'dark', 'auto'],
+  appearance: 'dark', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
@@ -16,9 +16,9 @@ const BLOG = {
   sortByDate: false,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://www.instagram.com/unballooon/',
   seo: {
     keywords: ['UnBalloon', 'unballoon', 'Programação Competitiva', 'Competitive Programming'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code

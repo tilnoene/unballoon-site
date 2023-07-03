@@ -8,7 +8,7 @@ dayjs.extend(localizedFormat)
 const loaded = {}
 
 export default function FormattedDate ({ date }) {
-  const lang = useConfig().lang.slice(0, 2)
+  const lang = 'pt-BR'; //useConfig().lang.slice(0, 2);
   const [isLocaleLoaded, setIsLocaleLoaded] = useState(loaded[lang] === true)
 
   useEffect(() => {

@@ -1,0 +1,22 @@
+{
+  "NAV": {
+    "INDEX": "Início",
+    "RSS": "RSS",
+    "SEARCH": "Pesquisar",
+    "ABOUT": "Sobre",
+    "CONTACT": "Contato"
+  },
+  "PAGINATION": {
+    "PREV": "Anterior",
+    "NEXT": "Próxima"
+  },
+  "POST": {
+    "BACK": "Voltar",
+    "TOP": "Topo"
+  },
+  "PAGE": {
+    "ERROR_404": {
+      "MESSAGE": "Essa página não existe"
+    }
+  }
+}
